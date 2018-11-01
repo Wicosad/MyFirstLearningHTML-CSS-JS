@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.title{
+    width: 1000px;
+    height: 150px;
+    background-color: #f8f8f8;
+    padding: 30px 0;
+}
+
+.title h1{
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+    font-family: "mv boli";
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #333 inset;
+}
+
+.box{
+    position: relative;
+    width: 1000px;
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center center;
+    overflow: hidden;
+/*    border: 1px solid #333;*/
+}
+
+/* box1 */
+
+.box1{
+    background-image: url(../img/box1back.jpg); 
+}
+
+.box1-imgs{
+    width: 1000px;
+    height: 618px;
+    overflow: hidden;
+}
+
+.img-slide{
+    position: absolute;
+    top: 150px;
+    padding-top: 30px;
+    display: none;
+    width: 1000px;
+    height: 618px;
+    background-repeat: no-repeat;
+}
+
+.box1-active{
+    display: block;
+}
+
+.slide1{
+    background-image: url(../img/scene1.jpg);
+}
+.slide2{
+    background-image: url(../img/scene2.jpg);
+}
+.slide3{
+    background-image: url(../img/scene3.jpg);
+}
+
+.icon{
+    position: absolute;
+    left: 0;
+    top: 489px;
+    width: 40px;
+    height: 80px;
+    margin-top: -40px;
+    text-decoration: none;
+}
+
+.next{
+    left: auto;
+    right: 0;
+}
+
+.icon:hover{
+    background-color: #333;
+    opacity: 0.8;
+}
+
+.icon i{
+    font-size: 40px;
+    line-height: 80px;
+    color: white;
+}
+
+/* box2 */
+
+.box2{
+    background-image: url(../img/box2back.jpg);
+    
+}
+
+.box2-imgs{
+    position: absolute;
+    top: 150px;
+ /*   padding-top: 108px;*/
+    width: 1000px;
+    height: 666px;
+    background-color: #f8f8f8;
+}
+
+.box2-img{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    transition: all 0.6s;
+}
+
+.box2-img:hover{
+    box-shadow: 3px 3px 3px 3px #333;
+}
+
+.box2-img1{
+    background-image: url(../img/food1.jpg); 
+    left: 0;
+}
+
+.box2-img2{
+    background-image: url(../img/food2.jpg); 
+    left: 350px;
+}
+
+.box2-img3{
+    background-image: url(../img/food3.jpg); 
+    right: 0;
+}
+
+/* box3 */
+
+.box3{
+    background-image: url(../img/box3back.jpg); 
+}
+
+.box3-imgs{
+    position: absolute;
+    top: 150px;
+    width: 1000px;
+    height: 666px;
+    background-color: #f8f8f8;
+}
+
+.box3-img{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.box3-img img{
+    width: 450px;
+    height: 300px;
+    transition: all 0.6s ease-in-out;
+}
+
+.box3-img img:hover{
+    transform: scale(1.1);
+}
+
+.box3-img1{
+    left: 0;
+}
+
+.box3-img2{
+    right: 0;
+}
+
+.box3-img3{
+    left: 0;
+    bottom: 33px;
+}
+
+.box3-img4{
+    right: 0;
+    bottom: 33px;
+}
+
+/* box4 */
+
+.box4{
+    background-image: url(../img/box4back.jpg); 
+}
+
+.box4-articles{
+    background-color: #f8f8f8;
+    width: 1000px;
+    height: 660px;
+}
+
+.box4-article{
+    width: 1000px;
+    height: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.box4-article a{
+    text-decoration: none;
+    color: #333;
+}
+
+.box4-article a:hover{
+    color: rgba(10, 150, 243, 0.61);
+}
+
+.box4-articles h2{
+    margin-left: 16px;
+    height: 80px;
+    line-height: 80px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.box4-articles p{
+    margin-left: 16px;
+    height: 50px;
+    line-height: 50px;
+}

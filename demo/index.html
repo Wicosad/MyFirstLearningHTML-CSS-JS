@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/global.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css">
+    <title>HomePage</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-nav" id="nav">
+            <span class="nav-line nav-logo">Life and Freedom</span>
+            <ul class="nav-line nav-content">
+                <li class="nav-line-list">
+                    <a href="scenery.html" target="_blank">Scenery</a>
+                </li>
+                <li class="nav-line-list">
+                    <a href="delicious.html" target="_blank">Delicious</a>
+                </li>
+                <li class="nav-line-list">
+                    <a href="gallery.html" target="_blank">Gallery</a>
+                </li>
+                <li class="nav-line-list">
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <div class="container">
+        <div class="box box1">
+            <div class="title">
+                <h1>Scenery</h1>
+            </div>
+            <div class="box1-imgs" id="imgs-slide">
+                <div class="img-slide slide1 box1-active"></div>
+                <div class="img-slide slide2"></div>
+                <div class="img-slide slide3"></div>
+            </div>
+            <a href="#2" class="icon prev" id="prev"><i class="iconfont">&#xe697;</i> </a>
+            <a href="#2" class="icon next" id="next"><i class="iconfont">&#xe6a7;</i> </a>
+        </div>
+        <div class="box box2">
+            <div class="title">
+                <h1>Delicious</h1>
+            </div>
+            <div class="box2-imgs">
+                <div class="box2-img box2-img1"></div>
+                <div class="box2-img box2-img2"></div>
+                <div class="box2-img box2-img3"></div>
+            </div>
+        </div>
+        <div class="box box3">
+            <div class="title">
+                <h1>Gallery</h1>
+            </div>
+            <div class="box3-imgs">
+                <div class="box3-img box3-img1">
+                    <img src="img/gallery1.jpg">
+                </div>
+                <div class="box3-img box3-img2">
+                    <img src="img/gallery2.jpg">
+                </div>
+                <div class="box3-img box3-img3">
+                    <img src="img/gallery3.jpg">
+                </div>
+                <div class="box3-img box3-img4">
+                    <img src="img/gallery4.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="box box4">
+            <div class="title">
+                <h1>Blog</h1>
+            </div>
+            <div class="box4-articles">
+                <div class="box4-article">
+                    <a href="#2">
+                        <h2>To be or not to be, that is a question.</h2>       
+                    </a>
+                    <p>Date: November 23, 2012 23:59:59</p>
+                </div>
+                <div class="box4-article">
+                    <a href="#2">
+                        <h2>Everything will be ok in the end, if it's not ok, it's not the end. </h2>     
+                    </a>
+                    <p>Date: June 08, 2016 18:00:00</p>
+                </div>
+                <div class="box4-article">
+                    <a href="#2">
+                        <h2>See the world, and love it.</h2>                      
+                    </a>
+                    <p>Date: October 02, 2017 06:50:31</p>
+                </div>
+                <div class="box4-article">
+                    <a href="#2">
+                        <h2>We are all in the gutter, but some of us are looking at the stars.</h2>
+                    </a> 
+                    <p>Date: October 15, 2018 02:09:07</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#"><i class="iconfont">&#xe750;</i></a></li>
+            <li><a href="#2" onclick="recGood()"><i class="iconfont">&#xe793;</i></a></li>
+            <li><a href="#2" onclick="recStar()"><i class="iconfont">&#xe732;</i></a></li>
+            <li><a href="demo.zip"><i class="iconfont">&#xe714;</i></a></li>
+        </ul>
+        <span>
+            <p>Copyright © 2018</p>
+            <p>素材来源于网络，仅用于学习</p>
+            <p>代码编辑: VScode</p>
+            <p style="border-right:0;">测试: Chrome + Chrome Dev Tools</p>
+        </span>
+    </div>
+    <script src="javascript/script.js">
+    </script>
+</body>
+</html>

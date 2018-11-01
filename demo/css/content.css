@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    position: relative;
+    width: 1000px;
+    height: 110%;
+    margin: 0 auto;
+/*    border: 1px solid #333;*/
+    background-color: rgba(240, 240, 240, 0.9);
+}
+
+.headpic{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+/*    border: 1px solid #333;*/
+}
+
+.headpic img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px 3px #333;
+}
+
+.information{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 200px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #333;
+/*    border: 1px solid #333;*/
+}
+
+.information a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 40px;
+    text-decoration: none;
+    color: #333;
+    transition: margin 1s;
+}
+
+.information span{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.information a:hover{
+    background-color: rgba(10, 10, 10, 0.5);
+    box-shadow: 1px 1px 1px 1px #333 inset;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.content{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    width: 650px;
+    height: 700px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #333;
+ /*   border: 1px solid #333;*/
+}
+
+.content h2{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+/*    border: 1px solid #333;*/
+}
+
+.date{
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: gray;
+    padding-right: 40px;
+    text-align: right;
+ /*   border: 1px solid #333;*/
+}
+
+.paragraph{
+    height: auto;
+    margin: 0 40px;
+    line-height: 38px;
+    text-indent: 2em;
+}
+
+.next{
+    display: block;
+    width: 100px;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 500px;
+    text-decoration: none;
+    color: #333;
+}
+
+.next:hover{
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px #333 inset;
+}
+
+.footer{
+    height: 30px;
+    position: absolute;
+    top: 95%;   
+    left: 45%;
+}
+
+.footer p{
+    text-align: center;
+}

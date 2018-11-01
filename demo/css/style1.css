@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+
+.container{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+/*    border: 1px solid #333;*/
+}
+
+.title{
+    margin-top: 10px;
+    width: 1000px;
+}
+
+.title img{
+    width: 1000px;
+}
+
+.title h1, h2{
+    text-align: center;
+    font-family: "mv boli";
+    box-shadow: 1px 1px 1px 1px #333;
+    margin-bottom: 10px;
+}
+
+.imgs{
+    width: 900px;
+    margin: 0 auto;
+/*    border: 1px solid #333;*/
+}
+
+.first img{
+    padding: 10px;
+    width: 270px;
+    height: 162px;
+    box-shadow: 1px 1px 1px 1px #333;
+}
+
+.second img{
+    padding: 10px;
+    width: 420px;
+    height: 252px;
+    box-shadow: 1px 1px 1px 1px #333;
+}
+.imgs img{
+    transition: all 0.8s linear;
+}
+
+.imgs img:hover{
+    margin: 10px 10px;
+    padding: 0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
